@@ -1,0 +1,8 @@
+.portfolio__item{
+  margin: 0 auto 10rem;
+  padding: 0;
+}
+
+.portfolio__item:last-child{
+  margin-bottom: 0;
+}

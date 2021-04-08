@@ -1,0 +1,11 @@
+.portfolio__link{
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  text-align: center;
+  text-decoration: underline;
+  color: #070707;
+}
+
+.portfolio__link:hover{
+  text-decoration: none;
+}

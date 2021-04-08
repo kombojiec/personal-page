@@ -34,6 +34,7 @@
 @import url(./blocks/section/section.css);
 @import url(./blocks/section/__description/section__description.css);
 @import url(./blocks/section/__title/section__title.css);
+@import url(./blocks/section/__title/_type/section__title_type_portfolio.css);
 
 /* ============= skills ================= */
 @import url(./blocks/skills/skills.css);
@@ -44,7 +45,13 @@
 @import url(./blocks/skills/__mark/skills__mark.css);
 @import url(./blocks/skills/__name/skills__name.css);
 @import url(./blocks/skills/__star/skills__star.css);
-/* @import url(./blocks/skills); */
+
+/* ============= portfolio ================= */
+@import url(./blocks/portfolio/portfolio.css);
+@import url(./blocks/portfolio/__item/portfolio__item.css);
+@import url(./blocks/portfolio/__link/portfolio__link.css);
+@import url(./blocks/portfolio/__view/portfolio__view.css);
+/* @import url(./blocks/portfolio); */
 
 /* ============= footer ================= */
 @import url(./blocks/footer/footer.css);
