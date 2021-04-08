@@ -1,0 +1,5 @@
+.header__bg{
+  background: center / cover no-repeat url(../../../images/header-bg.png);
+  padding-bottom: 41%;
+  max-width: 100%;
+}

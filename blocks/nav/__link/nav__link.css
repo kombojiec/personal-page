@@ -1,0 +1,13 @@
+.nav__link{
+  display: inline-block;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.2rem;
+  color: #828282;
+  text-decoration: none;
+}
+
+.nav__link:hover{
+  transform: scale(1.1);
+  color: #000;
+}

@@ -1,0 +1,19 @@
+.language__link{
+  display: inline-block;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2rem;
+  color: #828282;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0 0.5rem;
+}
+
+.language__link:first-child{
+  border-right: 2px solid #000;
+}
+
+.language__link:hover{
+  text-shadow: 0 0 1px #000;
+  color: #000;
+}
