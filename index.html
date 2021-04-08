@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="document" lang="ru">
+<html class="document" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,27 +8,27 @@
     <title>Главня</title>
 </head>
 <body class="body">
-    <header class="header">
+    <header class="header" id="header">
         <div class="container">
             <nav class="nav">
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a href="#" class="nav__link">Home</a>
+                        <a href="#header" class="nav__link">Home</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#" class="nav__link">About me</a>
+                        <a href="#about" class="nav__link">About me</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#" class="nav__link">Skills</a>
+                        <a href="#skills" class="nav__link">Skills</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#" class="nav__link">Portfolio</a>
+                        <a href="#portfolio" class="nav__link">Portfolio</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#" class="nav__link">Contacts</a>
+                        <a href="#contacts" class="nav__link">Contacts</a>
                     </li>
                 </ul>
-            </nav>
+            </nav>            
             <div class="header__box">
                 <div class="header__info">
                     <h1 class="header__title">Denis Novik</h1>
@@ -50,7 +50,7 @@
 
 
     <main class="page">
-        <section class="section bg_type_gray">
+        <section class="section bg_type_gray" id="about">
             <div class="container">
                 <H2 class="section__title">About me</H2>
                 <p class="section__description">
@@ -69,7 +69,7 @@
         </section>
         <!-- section About -->
 
-        <section class="section">
+        <section class="section" id="skills">
             <div class="container">
                 <h2 class="section__title">Skills</h2>
                 <p class="section__description">
@@ -171,7 +171,7 @@
         </section>
         <!-- section Skills -->
 
-        <section class="section bg_type_gray">
+        <section class="section bg_type_gray" id="portfolio">
             <div class="container">
                 <h2 class="section__title section__title_type_portfolio">Portfolio</h2>
                 <ul class="portfolio">
@@ -198,6 +198,80 @@
         </section>
         <!-- /.section Portfolio-->
 
+        <section class="section" id="contacts">
+            <div class="container">
+                <h2 class="section__title">Contacts</h2>
+                <p class="section__description section__description_type_contacts">
+                    Want to know more or just chat? 
+                    You are welcome!
+                </p>
+                <button class="button button_tepe_modal">Send message</button>
+                <div class="socials">
+                    <ul class="socials__list">
+                        <li class="socials__item">
+                            <a href="" class="socials__link">
+                                <svg class="socials__img">
+                                    <use xlink:href="./utiles/sprite.svg#linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="socials__item">
+                            <a href="" class="socials__link">
+                                <svg class="socials__img">
+                                    <use xlink:href="./utiles/sprite.svg#instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="socials__item">
+                            <a href="" class="socials__link">
+                                <svg class="socials__img">
+                                    <use xlink:href="./utiles/sprite.svg#be"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="socials__item">
+                            <a href="" class="socials__link">
+                                <svg class="socials__img">
+                                    <use xlink:href="./utiles/sprite.svg#ball"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="socials__description">Like me on<br>
+                        LinkedIn, Instagram, Behance, Dribble
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- /.section Contacts -->
+
+        <div class="modal hidden">
+            <form class="modal__window">
+                <svg class="button_type_close">
+                    <use xlink:href="./utiles/sprite.svg#close"></use>
+                </svg>
+                <h2 class="modal__title">Fill out the form</h2>
+                <div class="modal__group">                    
+                    <label for="name" class="modal__label">Your name</label>
+                    <input type="text" class="modal__input" id="name" placeholder="John Travolta" required min="2">
+                </div>
+                <div class="modal__group">                    
+                    <label for="email" class="modal__label"></label>
+                    <input type="email" class="modal__input" id="email" placeholder="travolta@gmail.com" required>
+                </div>
+                <div class="modal__group">                    
+                    <label for="phone" class="modal__label"></label>
+                    <input type="tel" class="modal__input" id="phone" placeholder="+7(999)-99-99-999" required>
+                </div>
+                <div class="modal__group">                    
+                    <label for="message" class="modal__label">Your message</label>
+                    <textarea type="text" class="modal__input" id="message" placeholder="Hi there..."></textarea>
+                </div>
+                <button type="submit" class="button button_type_submit">Send message</button>
+            </form>
+        </div>
+        <!-- Modal -->
+
     </main>
     <!-- /.page -->
 
@@ -211,3 +285,4 @@
     <script src="./index.js"></script>
 </body>
 </html>
+git add . && git commit -m "feat(develop): create "

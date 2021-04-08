@@ -1,0 +1,10 @@
+.socials__img{
+  display: block;
+  fill: #000;
+  width: 30px;
+  height: 30px;
+}
+
+.socials__img:hover{
+  fill: rgb(38, 0, 251);
+}

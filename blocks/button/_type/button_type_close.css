@@ -1,0 +1,18 @@
+.button_type_close{
+  position: absolute;
+  top: -1rem;
+  right: -1rem;
+  width: 4rem;
+  height: 4rem;
+  margin: 0;
+  background: center / cover no-repeat url(../../../images/close.svg);
+  border: none;
+}
+
+.button_type_close:hover{
+  fill: rgb(34, 32, 34);
+}
+
+.button_type_close:active{
+  fill: #000;
+}

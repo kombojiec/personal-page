@@ -33,6 +33,7 @@
 /* ============= section ================= */
 @import url(./blocks/section/section.css);
 @import url(./blocks/section/__description/section__description.css);
+@import url(./blocks/section/__description/_type/section__description_type_contacts.css);
 @import url(./blocks/section/__title/section__title.css);
 @import url(./blocks/section/__title/_type/section__title_type_portfolio.css);
 
@@ -53,6 +54,26 @@
 @import url(./blocks/portfolio/__view/portfolio__view.css);
 /* @import url(./blocks/portfolio); */
 
+/* ============= button ================= */
+@import url(./blocks/button/button.css);
+@import url(./blocks/button/_type/button_type_close.css);
+
+/* ============= socials ================= */
+@import url(./blocks/socials/socials.css);
+@import url(./blocks/socials/__description/socials__description.css);
+@import url(./blocks/socials/__img/socials__img.css);
+@import url(./blocks/socials/__item/socials__item.css);
+@import url(./blocks/socials/__link/socials__link.css);
+@import url(./blocks/socials/__list/socials__list.css);
+
+/* ============= modal ================= */
+@import url(./blocks/modal/modal.css);
+@import url(./blocks/modal/__group/modal__group.css);
+@import url(./blocks/modal/__input/modal__input.css);
+@import url(./blocks/modal/__label/modal__label.css);
+@import url(./blocks/modal/__title/modal__title.css);
+@import url(./blocks/modal/__window/modal__window.css);
+
 /* ============= footer ================= */
 @import url(./blocks/footer/footer.css);
 
@@ -65,5 +86,4 @@
 @import url(./blocks/bg/_type/bg_type_gray.css);
 
 /* ============= text ================= */
-@import url(./blocks/text/text.css);
 @import url(./blocks/text/_type/text_type_bold.css);
