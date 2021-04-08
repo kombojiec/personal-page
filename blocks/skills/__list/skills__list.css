@@ -1,0 +1,10 @@
+.skills__list{
+  /* display: flex;
+  align-items: flex-start;
+  justify-content: space-between; */
+  display: grid;
+  grid-template-rows: max-content;
+  grid-template-columns: repeat(4, 25%);
+  margin: 0;
+  padding: 0;
+}

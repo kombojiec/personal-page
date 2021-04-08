@@ -35,6 +35,17 @@
 @import url(./blocks/section/__description/section__description.css);
 @import url(./blocks/section/__title/section__title.css);
 
+/* ============= skills ================= */
+@import url(./blocks/skills/skills.css);
+@import url(./blocks/skills/__img/skills__img.css);
+@import url(./blocks/skills/__item/skills__item.css);
+@import url(./blocks/skills/__mark-item/skills__mark-item.css);
+@import url(./blocks/skills/__list/skills__list.css);
+@import url(./blocks/skills/__mark/skills__mark.css);
+@import url(./blocks/skills/__name/skills__name.css);
+@import url(./blocks/skills/__star/skills__star.css);
+/* @import url(./blocks/skills); */
+
 /* ============= footer ================= */
 @import url(./blocks/footer/footer.css);
 

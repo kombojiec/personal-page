@@ -1,0 +1,7 @@
+.skills__mark-item{
+
+}
+
+.skills__mark-item:last-child .skills__star{
+  margin-right: 0;
+}
