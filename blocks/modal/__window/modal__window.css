@@ -9,4 +9,5 @@
   justify-content: flex-start;
   background-color: #F6F6F6;
   border-radius: 3rem;
+  animation: fade 1s linear;
 }
